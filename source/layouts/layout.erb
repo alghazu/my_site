@@ -1,16 +1,13 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Nader's Portfolio" %></title>
-    <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
-  </head>
-  <body background="/images/carnevale.jpg">
-    <%= yield %>
-  </body>
-</html>
+!!!
+%html
+  %head
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{charset: "utf-8"}/
+    %meta{content: "ie=edge", "http-equiv" => "x-ua-compatible"}/
+    %meta{content: "width=device-width, initial-scale=1, shrink-to-fit=no", name: "viewport"}/
+    / Use the title from a page's frontmatter if it has one
+    %title= current_page.data.title || "Nader's Portfolio"
+    = stylesheet_link_tag "site"
+    = javascript_include_tag "site"
+  %body{background: "/images/carnevale.jpg"}
+    = yield
