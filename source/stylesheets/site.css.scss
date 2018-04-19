@@ -3,6 +3,7 @@ img {
     border: 5px solid #ddd;
     border-radius: 50%;
     width: 20%;
+    max-width: 200px;
 }
 
 h1 {
@@ -51,6 +52,18 @@ body{
   background-size: cover;
 }
 
-.fa {
-  font-size: 20px;
+.footer{
+
+}
+
+.icon {
+  font-size: 30px;
+  hi: 50px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.icon:hover {
+  color: grey;
+  font-size: 35px;
 }
