@@ -1,6 +1,6 @@
 
 img {
-    border: 5px solid #ddd;
+    border: 1px solid black;
     border-radius: 50%;
     width: 20%;
     max-width: 200px;
@@ -48,22 +48,91 @@ pre {
 }
 
 body{
+  text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
 }
 
-.footer{
+#footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
 
+.fa {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+.fa:hover {
+  color: white;
+}
+/* pop-up text */
+
+.icon span {
+  color: black;
+  position:absolute;
+  font-family:sans-serif;
+  bottom:0;
+  left:-25px;
+  right:-25px;
+  padding:5px 7px;
+  font-size:14px;
+  border-radius:2px;
+  background:#fff;
+  visibility:hidden;
+  opacity:0;
+  -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .icon {
-  font-size: 30px;
-  hi: 50px;
-  text-decoration: none;
-  color: black;
-  padding: 10px;
+  color:#fff;
+  border-radius:4px;
+  text-align:center;
+  text-decoration:none;
+  font-family:fontawesome;
+  position: relative;
+  display: inline-block;
+  width:40px;
+  height:28px;
+  padding-top:12px;
+  margin:0 2px;
+  -o-transition:all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+   -webkit-font-smoothing: antialiased;
 }
-.icon:hover {
-  color: grey;
-  font-size: 35px;
+/* pop-up text arrow */
+
+.icon span:before {
+  content:'';
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  position:absolute;
+  bottom:-5px;
+  left:40px;
+}
+
+/* text pops up when icon is in hover state */
+
+.icon:hover span {
+  bottom:50px;
+  visibility:visible;
+  opacity:1;
 }
