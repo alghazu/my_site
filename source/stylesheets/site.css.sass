@@ -4,6 +4,7 @@ img
   width: 20%
   max-width: 200px
 
+
 h1
   font-family: monospace
   font-size: 24px
@@ -28,21 +29,26 @@ p
   font-weight: 400
   line-height: 20px
 
-blockquote
-  font-family: monospace
-  font-size: 21px
-  font-style: normal
-  font-variant: normal
-  font-weight: 400
-  line-height: 30px
+a
+  text-decoration: none
+  &:visited
+    color: black
 
-pre
-  font-family: monospace
-  font-size: 13px
-  font-style: normal
-  font-variant: normal
-  font-weight: 400
-  line-height: 18.5714px
+// blockquote
+//   font-family: monospace
+//   font-size: 21px
+//   font-style: normal
+//   font-variant: normal
+//   font-weight: 400
+//   line-height: 30px
+//
+// pre
+//   font-family: monospace
+//   font-size: 13px
+//   font-style: normal
+//   font-variant: normal
+//   font-weight: 400
+//   line-height: 18.5714px
 
 body
   text-align: center
@@ -52,71 +58,26 @@ body
   margin-right: 20%
   margin-top: 5%
 
+#navbar
+  margin: 5px
+  ul
+    list-style-type: none
+  li
+    display: inline
+    padding: 10px
+
 #footer
   position: fixed
   left: 0
   bottom: 0
   width: 100%
-  height: auto
   background-color: grey
   color: white
   text-align: center
-
-.fa
-  font-size: 30px
-  text-decoration: none
-  color: black
-  padding: 5px
-  &:hover
-    color: white
-
-/* pop-up text
-
-.icon
-  span
+  .fa
+    text-decoration: none
+    font-size: 30px
     color: black
-    position: absolute
-    font-family: sans-serif
-    bottom: 0
-    left: -25px
-    right: -25px
-    padding: 5px 7px
-    font-size: 14px
-    border-radius: 2px
-    background: #fff
-    visibility: hidden
-    opacity: 0
-    -o-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55)
-    -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55)
-    -moz-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55)
-    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55)
-    &:before
-      content: ''
-      width: 0
-      height: 0
-      border-left: 5px solid transparent
-      border-right: 5px solid transparent
-      border-top: 5px solid #fff
-      position: absolute
-      bottom: -5px
-      left: 40px
-      color: #fff
-      border-radius: 4px
-      text-align: center
-      text-decoration: none
-      font-family: fontawesome
-      position: relative
-      display: inline-block
-      width: 40px
-      height: 28px
-      padding-top: 12px
-      margin: 0 2px
-      -o-transition: all .5s
-      -webkit-transition: all .5s
-      -moz-transition: all .5s
-      transition: all .5s
-      -webkit-font-smoothing: antialiased
-    &:hover span
-      bottom: 50px
-      visibility: visible
-      opacity: 1
+    padding: 5px
+    &:hover
+      color: white
