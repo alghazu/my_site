@@ -4,7 +4,6 @@ img
   width: 20%
   max-width: 200px
 
-
 h1
   font-family: monospace
   font-size: 24px
@@ -53,39 +52,49 @@ a
 
 body
   text-align: center
-  background-repeat: no-repeat
+  // background-repeat: no-repeat
   background-size: cover
   margin-left: 20%
   margin-right: 20%
   margin-top: 5%
 
 #navbar
-  margin: 5px
-
-ul
+  background-color: white
   position: -webkit-sticky
   position: sticky
+  left: 0
   top: 0
-  list-style-type: none
-  list-style: none
+  width: 100%
+  ul
+    list-style-type: none
+    list-style: none
+  li
+    display: inline
+    padding: 10px
 
-li
-  display: inline
-  padding: 10px
 
 #footer
-  position: fixed
+  position: -webkit-sticky
+  position: sticky
   left: 0
   bottom: 0
   width: 100%
   background-color: grey
   color: white
   text-align: center
+  .fa
+    text-decoration: none
+    font-size: 30px
+    color: black
+    padding: 5px
+    &:hover
+      color: white
 
-.fa
-  text-decoration: none
-  font-size: 30px
-  color: black
-  padding: 5px
-  &:hover
-    color: white
+#social-icons-contact
+  .fa
+    text-decoration: none
+    font-size: 30px
+    color: black
+    padding: 5px
+    &:hover
+      color: grey
