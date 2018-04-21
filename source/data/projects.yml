@@ -1,3 +1,7 @@
 - name: FizzBuzz
   description: First time to miss with Ruby
-  Url: https: 
+  github: https:
+
+- name: Library Challenge
+  description: A simple library terminal application using ruby OOB
+  github: https:

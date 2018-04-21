@@ -1,4 +1,5 @@
--# %h1 My Humble Projects
--#   data.projects.each do |project|
--#     %p= project[:name]
 %h1 Latest Projects
+
+.projects-list
+  = data.projects.each do |project|
+    %h3= project[:name]
