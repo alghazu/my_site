@@ -1,0 +1,6 @@
+%h1 Latest Projects
+
+.projects-list
+  - data.projects.each do |project|
+    %h3= project[:name]
+    %p= project[:description]
