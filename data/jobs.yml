@@ -1,0 +1,22 @@
+- date: March 2012 - September 2012
+  title: Master’s Thesis Worker
+  organization: Rohde & Schwarz GmbH & Co. KG
+  description:
+    Conduct a study and analysis of the IEEE 802.11ac current state of the standardization.
+    Develop a MATLAB® simulation for generating and receiving 802.11ac physical layer frames.
+    Run simulations on the hardware platform (SMU & CMW) in order to analyse and define requirements
+    (e.g. spectral flat rates, EVM, dynamics, data rates).
+    Estimate resources and the resulting requirements for hardware and signal processing algorithms.
+  location: Munich, Germany
+
+- date: May 2007 – April 2018
+  title: Senior Measurements / Logging Field Engineer
+  organization: Halliburton Worldwide Ltd.
+  description:
+    Lead Logging While Drilling services on onshore and offshore rigs, running NMR, Sonic, Azimuthal
+    Resistivity and Density, Porosity, Gamma, vibration and sampling tools. Worked on Extended Reach
+    Drilling (ERD) Wells and High Temperature wells. I also work as technical support, coordinator,
+    representative, and QC tech.
+    Petrophysics, Advanced drilling and logging courses. Nuclear sources handling license.
+    Extensive Health, Safety, Environment (HSE) and First Aid training.
+  location: Abu Dhabi, United Arab Emirates

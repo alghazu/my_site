@@ -1,0 +1,19 @@
+%h1 Résumé
+%h2 Work Experience
+- data.jobs.each do |job|
+  %h3= job[:title]
+  %p= job[:date]
+  %p= job[:description]
+  %h4= job[:organization]
+  %p= job[:location]
+  %br
+
+%h2 Education
+
+- data.education.each do |edu|
+  %h3= edu[:title]
+  %p= edu[:date]
+  %p= edu[:description]
+  %h4= edu[:organization]
+  %p= edu[:location]
+  %br

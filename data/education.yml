@@ -1,19 +1,24 @@
-- title: Master’s Thesis Worker
-  organization: Rohde & Schwarz GmbH & Co. KG
+- date: August 2010 - December 2012
+  title: MSc Wireless Systems
+  organization: Royal Institute of Technology KTH (Kungliga Tekniska högskolan)
   description:
-    Conduct a study and analysis of the IEEE 802.11ac current state of the standardization.
-    Develop a MATLAB® simulation for generating and receiving 802.11ac physical layer frames.
-    Run simulations on the hardware platform (SMU & CMW) in order to analyse and define requirements
-    (e.g. spectral flat rates, EVM, dynamics, data rates).
-    Estimate resources and the resulting requirements for hardware and signal processing algorithms.
-  location: Munich, Germany
+    Project in “Energy Efficiency of Open-Access Macro-Femto Networks”.
+    Digital Radio Communication, Digital Signal Processing, Applied Antenna Theory, Wireless Sensor
+    Networks, Wireless and Mobile Network Architectures, Wireless Networks.
+  location: Stockholm, Sweden
 
-- title: Master’s Thesis Worker
-  organization: Rohde & Schwarz GmbH & Co. KG
+- date: August 2001 - December 2006
+  title: BSc Electrical Engineering
+  organization: United Arab Emirates University UAEU
   description:
-    Conduct a study and analysis of the IEEE 802.11ac current state of the standardization.
-    Develop a MATLAB® simulation for generating and receiving 802.11ac physical layer frames.
-    Run simulations on the hardware platform (SMU & CMW) in order to analyse and define requirements
-    (e.g. spectral flat rates, EVM, dynamics, data rates).
-    Estimate resources and the resulting requirements for hardware and signal processing algorithms.
-  location: Munich, Germany
+    Thesis in "Ultra-Wideband PHY / MAC” (MATLAB® Simulation).
+    Electronics, Measurements and Instruments, Microprocessors, Digital Signal Processing,
+    Communication Systems, Coding, Electrical Machines.(GPA 3.4 / 4). 
+  location: Al-Ain, United Arab Emirates
+
+- date: August 2005 - December 2005
+  title: Internship
+  organization: Technobothnia Research Centre (Through Vaasa Polytechnic)
+  description:
+    Embedded systems, radio transceivers, mobile communication, robotics and PCB.
+  location: Vaasa, Finland
