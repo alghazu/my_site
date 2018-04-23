@@ -1,0 +1,19 @@
+- title: Master’s Thesis Worker
+  organization: Rohde & Schwarz GmbH & Co. KG
+  description:
+    Conduct a study and analysis of the IEEE 802.11ac current state of the standardization.
+    Develop a MATLAB® simulation for generating and receiving 802.11ac physical layer frames.
+    Run simulations on the hardware platform (SMU & CMW) in order to analyse and define requirements
+    (e.g. spectral flat rates, EVM, dynamics, data rates).
+    Estimate resources and the resulting requirements for hardware and signal processing algorithms.
+  location: Munich, Germany
+
+- title: Master’s Thesis Worker
+  organization: Rohde & Schwarz GmbH & Co. KG
+  description:
+    Conduct a study and analysis of the IEEE 802.11ac current state of the standardization.
+    Develop a MATLAB® simulation for generating and receiving 802.11ac physical layer frames.
+    Run simulations on the hardware platform (SMU & CMW) in order to analyse and define requirements
+    (e.g. spectral flat rates, EVM, dynamics, data rates).
+    Estimate resources and the resulting requirements for hardware and signal processing algorithms.
+  location: Munich, Germany

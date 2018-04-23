@@ -1,1 +1,8 @@
 %h1 My CV
+
+-data.education.each do |edu|
+  %h3= edu[:title]
+  %p= edu[:description]
+  %h4= edu[:organization]
+  %p= edu[:location]
+  %br

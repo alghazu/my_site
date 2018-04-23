@@ -2,5 +2,9 @@
 
 .projects-list
   - data.projects.each do |project|
-    %h3= project[:name]
+    %h3
+      = project[:name]
+      %a{href: project[:github], target: '_blank'}
+        %i.fa.fa-github-square
+
     %p= project[:description]
