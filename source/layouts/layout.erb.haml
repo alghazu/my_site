@@ -8,8 +8,9 @@
     / Use the title from a page's frontmatter if it has one
     %title= current_page.data.title || "Nader's Portfolio"
     %link{:href => "stylesheets/site.css", :rel => "stylesheet"}/
+
     /= stylesheet_link_tag "site"
-    /= javascript_include_tag "site"
+    = javascript_include_tag "site"
   %body
     = partial '/partials/navbar'
     = yield
