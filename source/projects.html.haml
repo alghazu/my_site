@@ -1,15 +1,16 @@
-%h1 Latest Projects
+.container
+  %h1 Latest Projects
 
-.projects-list
-  - data.projects.each do |project|
-    %h3
-      = project[:name]
-      %a{href: project[:github], target: '_blank'}
-        %i.fa.fa-github-square
-    %p= project[:description]
+  .projects-list
+    - data.projects.each do |project|
+      %h3
+        = project[:name]
+        %a{href: project[:github], target: '_blank'}
+          %i.fa.fa-github-square
+      %p= project[:description]
 
-%h3
-  Flyme Travel & Tourism
-  %a{href: 'http://www.flymeuae.com', target: '_blank'}
-    %img{src: '/images/Baloon_ico_32.png'}
-%p A travel agency website, with e-commerce for flights, hotels and tourist visas
+  %h3
+    Flyme Travel & Tourism
+    %a{href: 'http://www.flymeuae.com', target: '_blank'}
+      %img{src: '/images/Baloon_ico_32.png'}
+  %p A travel agency website, with e-commerce for flights, hotels and tourist visas

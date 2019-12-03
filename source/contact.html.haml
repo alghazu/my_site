@@ -1,17 +1,23 @@
-%h1 Contact Me
-%p You can contact me by filling this form, or through the social media links below.
-%form{method: "POST", name: "contact", netlify: ""}
-  %p
-    Your Name:
-    %br
-    %input{name: "name", type: "text"}
-  %p
-    Your Email:
-    %br
-    %input{name: "email", type: "email"}
-  %p
-    Message:
-    %br
-    %textarea{name: "message"}
-  %p
-    %button{type: "submit"} Send
+.container
+  %h1 Contact Me
+  %p You can contact me by filling this form, or through the social media links below.
+
+
+  %form{method: "POST", name: "contact", netlify: ""}
+    .row
+      .col-25
+        %label{for: "name"} Name
+      .col-75
+        %input#name{name:"firstname", placeholder:"Your name..", type:"text"}
+    .row
+      .col-25
+        %label{for: "email"} Email
+      .col-75
+        %input#name{email: "firstname", placeholder: "Your email..", type: "text"}
+    .row
+      .col-25
+        %label{for: "message"} Message
+      .col-75
+        %textarea#subject{name: "message", placeholder: "Write something.."}
+    .row
+      %input{type:"submit", value: "Send"}

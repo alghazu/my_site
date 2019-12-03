@@ -1,0 +1,10 @@
+.container
+  %h1 My Wish List
+
+  .wishlist
+    - data.wishlist.each do |wish|
+      %h3
+        = wish[:description]
+      %a{href: wish[:link], target: '_blank'} Buy Now
+
+
