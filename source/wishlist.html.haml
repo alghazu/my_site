@@ -1,11 +1,16 @@
+---
+title: Nader's Wish List
+---
+
 .container
   %h1 My Wish List
 
-  .wishlist
-    - data.wishlist.each do |wish|
+
+  - data.wishlist.each do |wish|
+    .wish
       %h3
         = wish[:description]
       %a{href: wish[:link], target: '_blank'} Buy Now
-      %br
+
 
 

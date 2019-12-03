@@ -18,15 +18,18 @@ a {
   text-decoration: none;
 }
 
-.fa {
-  text-decoration: none;
-  font-size: 30px;
-  color: black;
-  padding: 5px;
-  &:hover {
-    color: gray;
+.projects-list{
+  .fa {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding: 5px;
+    &:hover {
+      color: gray;
+    }
   }
 }
+
 
 #photo img {
   border: 1px solid black;
@@ -69,6 +72,17 @@ nav {
   }
 }
 
+.wish {
+  margin-top: 3em;
+}
+.hidden {
+  display: none;
+}
+.success{
+  font-size: 5em;
+}
+
+// Contact Form CSS
 form {
   box-sizing: border-box;
   width: 100%;

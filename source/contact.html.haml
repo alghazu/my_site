@@ -2,8 +2,10 @@
   %h1 Contact Me
   %p You can contact me by filling this form, or through the social media links below.
 
-
-  %form{method: "POST", name: "contact", netlify: ""}
+  %form{method: "POST", name: "contact", :data-netlify => "true",  :netlify-honeypot=>"bot-field", :action=>"/success"}
+    %p.hidden
+      %label Don’t fill this out if you're human:
+      %input{name: "bot-field"}
     .row
       .col-25
         %label{for: "name"} Name
@@ -13,7 +15,7 @@
       .col-25
         %label{for: "email"} Email
       .col-75
-        %input#name{name:"email", placeholder: "Your email..", type: "text"}
+        %input#email{name:"email", placeholder: "Your email..", type: "text"}
     .row
       .col-25
         %label{for: "message"} Message
