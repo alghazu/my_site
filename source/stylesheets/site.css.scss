@@ -1,8 +1,6 @@
 body {
   font-family: monospace;
   text-align: center;
-  // background-size: cover;
-
   width: 100%
 }
 
@@ -62,10 +60,14 @@ a:visited {
 }
 #footer .fa {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 24px;
   color: black;
-  padding: 5px;
+  // padding: 5px;
 }
 #footer .fa:hover {
   color: white;
+}
+
+#about-me {
+  padding-bottom: 100rem;
 }
