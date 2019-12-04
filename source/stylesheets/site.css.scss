@@ -11,6 +11,7 @@ body {
 .container {
   flex: 1;
   margin : {
+    top: 50px;
     left: 10%;
     right: 10%;
   }
@@ -26,7 +27,7 @@ a {
 #footer {
   margin: 50px 0px 0px 0px;
   padding: 1em;
-  background-color: gray;
+  background-color: darkgray;
   color: white;
   text-align: center;
   .fa {
@@ -58,16 +59,19 @@ a {
   border-radius: 50%;
   width: 20%;
   max-width: 200px;
+  margin: 20px;
 }
 
 nav {
-  position: -webkit-sticky;
-  position: sticky;
-  margin-bottom: 50px;
+  overflow: hidden;
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0;
   width: 100%;
   padding: 1em;
-  a {
+   a {
     padding: 1em;
+    text-align: center;
   &:hover {
     background-color: black;
     color: white;
