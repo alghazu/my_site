@@ -2,20 +2,42 @@ body {
   font-family: monospace;
   text-align: center;
   width: 100%;
-  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .container {
+  flex: 1;
   margin : {
     left: 10%;
     right: 10%;
   }
   width: 80%;
+  
 }
 
 a {
   color: black;
   text-decoration: none;
+}
+
+#footer {
+  margin: 50px 0px 0px 0px;
+  padding: 1em;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  .fa {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    padding: 5px;
+    &:hover {
+      color: white;
+    }
+  }
 }
 
 .projects-list{
@@ -49,25 +71,6 @@ nav {
   &:hover {
     background-color: black;
     color: white;
-    }
-  }
-}
-
-#footer {
-  position: -webkit-sticky;
-  position: sticky;
-  margin-top: 10em;
-  padding: 1em;
-  background-color: gray;
-  color: white;
-  text-align: center;
-  .fa {
-    text-decoration: none;
-    font-size: 24px;
-    color: black;
-    padding: 5px;
-    &:hover {
-      color: white;
     }
   }
 }
