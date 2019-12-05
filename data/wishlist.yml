@@ -1,13 +1,17 @@
+- description: IFIXIT Pro Tech Toolkit
+  link: https://www.pricerunner.se/pl/344-5061260/Handverktyg/iFixit-EU145307-4-Set-priser
+  price: 650
+
+- description: FLIRC Case för Pi4
+  link: https://www.electrokit.com/en/product/flirc-case-for-pi4/
+  price: 250
+
+ 
+- description: A used ergonomic office chair
+  link: https://www.blocket.se
+  price: 2000 - 3000
 
 
-- description: Case for Raspberry Pi 4 with fan and heat sink
-  link: http://www.google.com/
-
-- description: Invite me for Burgers
+- description: Hot chili cheese burger
   link: https://www.primeburger.se/
-  
-- description: New Office Chair
-  link: http://www.ikea.se/
-
-- description: Nike Shoes
-  link: http://www.stadium.se/
+  price: 125

@@ -8,8 +8,12 @@ title: Nader's Wish List
 
   - data.wishlist.each do |wish|
     .wish
-      %h3
-        = wish[:description]
+      %div
+        %h3 
+          = wish[:description] 
+        %p
+          =' (Price: ' + wish[:price].to_s + ' Kr)'
+      
       %a.buy-btn{href: wish[:link], target: '_blank'}Buy Now
 
 
